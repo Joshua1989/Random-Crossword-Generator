@@ -1,0 +1,40 @@
+Expurgation: Decreasing the dimension of a code (to increase redundancy).
+Epigraph: The set of points above a function curve; can be used to determine if the function is convex.
+Prior: What additional information (or bias) does a Bayesian use unlike the Frequentist?
+McDiarmid: Apply Azuma's inequality to the Doob martingale. What inequality do you get?
+Kronecker: $ (A \ \square \ B)^{-1}  = A^{-1} \ \square \ B^{-1} $ for invertible matrices $A,B$. What is ``$\square$''?
+Martingale: The key concept in the (random walk based) proof of polar codes by Arikan.
+Viterbi: The dynamic programming algorithm to decode convolutional codes.
+Capacity: The fundamental bound on mutual information for a channel.
+Annealing: A stochastic approach to approximate the global optimum of a function.
+Huffman: The simplest source code. (ignore the last box of 21 across)
+Stirling: A useful approximation for factorials. How to show $ \binom{n}{qn} \approx 2^{n \mathcal{H}(q)} / \sqrt{2 \pi n q(1-q)} $?
+Nats: Unit of information under the natural logarithm.
+Waterfilling: Strategy to share a limited resource among portfolios with varying risks, e.g. distributing power among noisy sub-channels.
+Coset: A shifted subgroup of a group $G$.
+Nishimori: Special temperature when internal energy of spin glass model can be computed exactly.
+Woodbury: For matrices $A,U,B,V$, need to compute $(A^{-1}+UB^{-1}V)^{-1}$ without computing $A^{-1}$ and $B^{-1}$. How?
+Boolean: Shannon's seminal methodology of analyzing circuits (an algebra).
+Welch: Lower bound on the maximal inner product between unit vectors.
+Correntropy: For random variables $X,Y$ and a non-negative definite function $\kappa(\cdot,\cdot)$, what is the quantity $V(X,Y) = \mathbb{E}[\kappa(X,Y)]$ called?
+Frobenius: The $\ell_2$ norm of a vectorized matrix.
+Convolution: Given the pdfs of two independent random variables $X,Y$, how to get pdf of $Z=X+Y$?
+Forney: 2016 IEEE Medal of Honour recipient.
+Automorphism: A structure-preserving mapping from an object to itself.
+Michigan: The home state of Claude Shannon.
+Minimax: The common optimization approach used in strategic games, e.g. Chess, Go.
+Distortion: A measure of reconstruction error (mainly in source coding).
+Bhattacharyya: A key parameter to measure channel degradation in coding theory.
+Duality: Let $ \mathcal{C} $ be a linear code. What is the relation between $ \mathcal{C} $ and the code defined by its parity check matrix?
+Entropy: Name of Claude Shannon's house in Winchester, MA.
+Lipschitz: Between ``continuous'' and ``derivative exists everywhere and bounded''.
+Ternary: Just one step more than binary
+Limit: The concept used to check the continuity of a function at a point.
+Taylor: $ e^x = \sum_{n=0}^\infty x^n / n! $
+Sinc: Fourier transform of a box function
+Hessian: Conjugate gradient method is useful because it avoids computing this.
+Ziv: Wyner's famous collaborator.
+XOR: Addition modulo 2
+Rank: Number of non-zero singular values.
+Peeling: Krishna Narayanan's talk (yesterday)
+Markov: When past and future are independent given the present...
