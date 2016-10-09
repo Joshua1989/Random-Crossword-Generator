@@ -177,7 +177,7 @@ def crossword2tex(nrow, ncol, words):
 
 if __name__ == "__main__":
     ncol, nrow = 30, 30
-    wordlist = [[line.split(':')[0].upper(), line.split(':')[1]] for line in open('words.txt').read().split('\n')]
+    wordlist = [[line.split(':')[0].upper(), line.split(':')[1]] for line in open('words.txt').read().splitlines()]
     wordlist = wordlist[:]
     cw = Crossword(nrow, ncol, ' ', wordlist)
     print(cw.compute_crossword())
